@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.1s ease-in;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Elvetica, Sans-serif;
+  background: #3399cc;
+  color: #ffffff;
+}
+header,
+footer {
+  background: rgb(219, 122, 122);
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+}
+main {
+  margin: 100px 180px;
+  display: block;
+  font-size: 0;
+}
+.sities {
+  border: 1px solid #ffffff;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  border: 1.5px solid #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+  padding: 20px;
+  height: 80px;
+  width: 100%;
+  margin: 0;
+}
+.blue {
+  background: #3399cc;
+  width: 50%;
+  margin: 0;
+}
+.mint {
+  background: #33cccc;
+  width: 25%;
+  margin: 0;
+}
+.darkpurple {
+  background: #996699;
+  width: 25%;
+  margin: 0;
+}
+.Venice {
+  background: #c24747;
+  width: 25%;
+  margin: 0;
+}
+.orange {
+  background: #e2674a;
+  width: 25%;
+  margin: 0;
+}
+.yellow {
+  background: #ffcc66;
+  width: 25%;
+  margin: 0;
+}
+.mint {
+  background: #99cc99;
+  width: 25%;
+  margin: 0;
+}
+.graygreen {
+  background: #669999;
+  width: 25%;
+  margin: 0;
+}
+.pink {
+  background: #cc6699;
+  width: 50%;
+  margin: 0;
+}
+.green {
+  width: 25%;
+  background: #339966;
+  margin: 0;
+}
+.lightpurple {
+  width: 100%;
+  background: #666699;
+  margin: 0;
+}
+.sities:hover > .item {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.sities:hover > .item:hover {
+  opacity: 1;
+}

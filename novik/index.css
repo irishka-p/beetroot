@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  text-align: center;
+  width: 100%;
+}
+.header {
+  border-top: 1px solid black;
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+.fotoNovika {
+  max-width: 900px;
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 10px;
+  cursor: pointer;
+}
+li {
+  display: inline-block;
+  margin: 30px;
+}
+nav,
+div,
+footer,
+span,
+h2, p {
+  display: ;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.aboutme {
+  background: rgb(240, 235, 235);
+  max-width: 1100%;
+  padding: 5em;
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  text-align:left;
+ 
+}
+
+.skills {
+  display: inline;
+  width: 45px;
+}
+.skillblock {
+  display: inline-block;
+}
+.icon {
+  width: 45px;
+}
+.star {
+  margin-bottom: 10px;
+  display: inline;
+  width: 15px;
+}
+.button {
+  background: #000;
+  border-radius: 1em;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
