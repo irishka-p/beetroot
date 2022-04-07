@@ -14,12 +14,15 @@ body {
 header,
 h1,
 p,
-footer {
+button {
   background: #4a4f56;
   text-align: center;
   color: #ff8984;
   margin: 0 auto;
   padding: 5px;
+}
+button {
+  margin-left: 50%;
 }
 .wrapper {
   background: #3b3f45;
@@ -35,7 +38,6 @@ footer {
   margin: 0 auto;
   display: flex;
   width: 500px;
-  height: 100%;
 }
 
 input[type="checkbox"] { 
@@ -50,9 +52,9 @@ input[type="checkbox"]:checked + label::before {
 	background-color: rgba(122, 117, 147, 1);
 }
 label {
-  border-bottom: 2px solid white none;
+  border-bottom: 2px solid transparent;
   background: rgba(136, 131, 158, 1);
-  border-top: 2px solid white none;
+  border-top: 2px solid transparent;
   padding: 3px 20px;
   font-size: 21px;
   color: #ffff;
@@ -85,5 +87,5 @@ input[type="checkbox"]:checked + label {
 }
 
 footer {
-  width: 500px;
+  /* width: 500px; */
 }
