@@ -7,19 +7,21 @@ body {
   box-sizing: border-box;
   max-width: 1200px;
   font-size: 15px;
-  font-size: 400;
+  /* font-size: 400; */
   width: 100%;
 }
 
 @font-face {
-  font-family: "Roboto", "PT Sans";
+  font-family: "Roboto";
   src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900;);
 }
 .container {
   margin: 20px;
 }
 .header__nav {
+  margin-top: 20px;
   display: flex;
+  
 }
 
 nav,
@@ -37,45 +39,34 @@ a {
   color: black;
 }
 div.maintext::first-letter {
-  font-size: 0, 5rem;
+  font-size: 0.5rem;
 }
 p {
-  font-family: "Roboto", "PT Sans";
+  font-family: "Roboto";
   font-weight: 400;
 }
-span.eng {
+li.eng {
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-width: 0.9px;
   color: white;
   width: 10px;
 }
-
 .logo-name {
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px;
-  margin-right: 100px;
-  display: inline;
-  text-align: right;
-  font-size: 20px;
-  height: 50px;
-  width:20px;
-}
-.maintext {
-  font-family: "Roboto", "PT Sans";
+  display: flex;
+  text-transform: uppercase;
+  font-size: 3.4rem;
   font-weight: 700;
+
+}
+
+.maintext {
+  font-family: "Roboto";
+  font-weight: 700;
+  text-transform: uppercase;
 }
 sup {
   vertical-align: top 0;
   font-size: 0.5em;
-}
-.triangle {
-  width: 10px;
-  height: 20px;
-}
-.name {
-  flex-direction: row;
-  display: flex;
-  
 }
 .item-color {
   background: rgb(238, 238, 238);
