@@ -71,6 +71,7 @@ ul {
 .orange {
   font-size: 10px;
   padding: 4px;
+  margin-left: 10px;
 }
 
 /*body*/
@@ -81,6 +82,7 @@ ul {
   background: #ff9900;
   border-radius: 4px;
   color: white;
+ 
 }
 
 .orange-big,
