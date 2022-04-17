@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.authorization {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  max-width: 540px;
+  display: block;
+  margin: 0 auto;
+  height: 590px;
+  padding: 15px;
+  width: 100%;
+}
+
+.form__content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__content__title {
+  margin-bottom: 5px;
+}
+
+.form--radio {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-item__label {
+  margin-bottom: 10px;
+}
+
+.form-item__input {
+  margin-right: 5px;
+  outline: none;
+  padding: 5px;
+  width: 245px;
+  height: 40px;
+}
+
+.form-item__input__input:last-child {
+  margin-right: 0;
+}
+
+.form-item__input:invalid:focus {
+  border-color: red;
+}
+
+.form-item__input:valid:focus {
+  border-color: #349b00;
+}
+
+.form-item__input--radio {
+  margin: 20px 20px 20px 5px;
+}
+
+.form-item__input--radio--radio:last-child {
+  margin: 20px 0 20px 5px;
+}
+
+.form-item__input-mail {
+  outline: none;
+  width: 500px;
+  padding: 5px;
+  height: 40px;
+}
+
+.form-item__input-mail:invalid:focus {
+  border-color: red;
+}
+
+.form-item__input-mail:valid:focus {
+  border-color: #349b00;
+}
+
+.form__text {
+  font-size: 14px;
+  color: #969696;
+}
+
+.form__text-center {
+  text-align: center;
+  padding: 15px;
+}
+
+.form__text-center-center:last-child {
+  padding: 15px 0;
+}
+
+.form__link {
+  color: #007BFF;
+}
+
+.footer {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

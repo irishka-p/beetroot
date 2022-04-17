@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <header class="header">
+      <h3><a href="../index.html">Back to main page</a></h3>
+    </header>
+    <div class="wrapper">
+      <form class="form" action="" method="get">
+        <!-- Title -->
+        <h2 class="form__title">Create an Account</h2>
+        <!-- Content -->
+        <div class="form__content">
+          <div class="form-item">
+            <label class="form-item__label" for="fname">
+              <div class="form__content__title">First Name</div>
+              <input
+                required
+                class="form-item__input"
+                type="text"
+                id="fname"
+                name="fname"
+              />
+            </label>
+          </div>
+          <div class="form-item">
+            <label class="form-item__label" for="lname">
+              <div class="form__content__title">Last Name</div>
+              <input
+                required
+                class="form-item__input"
+                type="text"
+                id="lname"
+                name="lname"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="form-item__label" for="mail">
+            <div class="form__content__title">E-mail</div>
+            <input
+              required
+              class="form-item__input-mail"
+              type="text"
+              id="mail"
+              name="mail"
+            />
+          </label>
+          <p class="form__text">
+            We'll never share your email with anyone else.
+          </p>
+        </div>
+        <div class="form__content">
+          <label class="form--radio">
+            <div>Male</div>
+            <input
+              class="form-item__input--radio"
+              value="male"
+              name="gender"
+              type="radio"
+            />
+          </label>
+          <label class="form--radio">
+            <div>Female</div>
+            <input
+              class="form-item__input--radio"
+              value="female"
+              name="gender"
+              type="radio"
+            />
+          </label>
+        </div>
+        <div class="form__content">
+          <div class="form-item">
+            <div class="form__content__title">Country</div>
+            <select class="form-item__input" name="country">
+              <option value="" disabled selected>Select</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="Greece">Greece</option>
+              <option value="Canada">Canada</option>
+              <option value="Spain">Spain</option>
+              <option value="Italy">Italy</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Montenegro">Montenegro</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label class="form-item__label" for="city">
+              <div class="form__content__title">City</div>
+              <input
+                required
+                class="form-item__input"
+                type="text"
+                id="city"
+                name="city"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="form-item__label" for="text">
+            <div class="form__content__title"></div>
+            <input
+              required
+              class="form-item__input-mail"
+              type="text"
+              id="text"
+              name="text"
+            />
+          </label>
+        </div>
+        <div class="form__text-center">
+          <p class="form__text">
+            By clicking the 'Sign Up' button, you confirm that you accept our<br />
+            <a class="form__link" href="#">Terms of Use</a> and
+            <a class="form__link" href="#">Privacy Policy</a>.
+          </p>
+        </div>
+        <span><hr /></span>
+        <div class="form__text-center">
+          <p class="form__text">
+            Have an account? <a class="form__link" href="#"> Log in</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <footer class="footer">The end ;)</footer>
+  </body>
+</html>
