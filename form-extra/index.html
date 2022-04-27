@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <header class="header">
+      <h3><a href="../index.html">Back to main page</a></h3>
+    </header>
+    <div class="wrapper">
+      <form class="form" action="" method="get">
+        <!-- Title -->
+        <h2 class="form__title">Profile</h2>
+        <!-- Content -->
+        <div class="form__content">
+          <img src="./📷 Image.jpg" alt="user picture">
+          <input
+          required
+          class="form-item__input"
+          type="text"
+          id="name"
+          name="name"
+        />
+        <label for="">Up to 1MB (300* 300px)</label>
+          <button class=""></button>
+        </div>
+        <div class="form__content">
+          <div class="form-item">
+            <label class="form-item__label" for="name">
+              <div class="form__content__title">Name</div>
+              <input
+                required
+                class="form-item__input"
+                type="text"
+                id="name"
+                name="name"
+              />
+            </label>
+          </div>
+        <div class="form-item">
+          <label class="form-item__label" for="mail">
+            <div class="form__content__title">E-mail</div>
+            <input
+              required
+              class="form-item__input"
+              type="text"
+              id="mail"
+              name="mail"
+            />
+          </label>
+        </div>
+        
+        <div class="form__content">
+          <div class="form-item">
+            <div class="form__content__title">Country</div>
+            <select class="form-item__input" name="country">
+              <option value="" disabled selected>Select</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="Greece">Greece</option>
+              <option value="Canada">Canada</option>
+              <option value="Spain">Spain</option>
+              <option value="Italy">Italy</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Montenegro">Montenegro</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label class="form-item__label" for="city">
+              <div class="form__content__title">City</div>
+              <input
+                required
+                class="form-item__input"
+                type="text"
+                id="city"
+                name="city"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="form-item__label" for="code">
+            <div class="form__content__title">Zip Code</div>
+            <input
+              required
+              class="form-item__input-mail"
+              type="text"
+              id="code"
+              name="code"
+            />
+          </label>
+        </div><div class="form-item">
+          <label class="form-item__label" for="number">
+            <div class="form__content__title">Phone Number</div>
+            <input
+              required
+              class="form-item__input-mail"
+              type="text"
+              id="number"
+              name="number"
+            />
+          </label>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <footer class="footer">The end ;)</footer>
+  </body>
+</html>

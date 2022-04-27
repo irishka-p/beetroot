@@ -1,0 +1,19 @@
+.header {
+  margin: 20px;
+  border: 1px solid green;
+
+  &_breadcrumbs {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  &_item {
+    display: inline;
+    font-size: 20px;
+    list-style-type: none;
+
+    text-decoration: none;
+    align-items: center;
+  }
+}
