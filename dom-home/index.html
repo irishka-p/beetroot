@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>home dom</title>
+  </head>
+  <body>
+    <header class="header"><a href="./index.html">Main page</a></header>
+    <!-- Загальний контейнер -->
+    <div class="wrapper">
+      <!-- контейнер для списку пісень -->
+      <div class="songlist">
+        <p id="playList"></p>
+        <h5 class="songlist-title">
+          Створити сторінку, що показує нумерований список пісень:
+        </h5>
+        <ol id="js-list" class="list"></ol>
+      </div>
+
+      <!-- контейнер для модального вікна -->
+      <button id="myBtn">Open window</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close"></span>
+          </div>
+          <div id="js-modal-body" class="modal__items">
+           <!-- <img class="modal__item " src="./photo1.jpg" alt="бузок"> -->
+           <img class="modal__item "  src="./photo2.jpg" alt="море">
+           <!-- <img class="modal__item " src="./photo3.jpg" alt="час">  -->
+          </div> 
+          <div class="modal-footer">
+           
+          </div>
+        </div>
+      </div>
+  
+      <!-- контейнер для світлофора -->
+      <div class="traffic">
+        <button id="js-toggle" type="button" class="traffic__button">
+          <span>Toggle</span>
+        </button>
+        <div class="traffic__lights">
+          <div class="js-circle traffic__circle active"></div>
+          <div class="js-circle traffic__circle"></div>
+          <div class="js-circle traffic__circle"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">the end</footer>
+    <script type="module" src="./index.js"></script>
+
+  </body>
+</html>

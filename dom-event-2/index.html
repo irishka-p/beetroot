@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Dom event 2</title>
+  </head>
+  <body>
+    <!-----App-->
+    <div class="app">
+      <h1 class="title">Dom event 2</h1>
+      <!----Form-->
+      <form class="form" method="post" id="js-registration-form">
+        <!--title-->
+        <h2 class="form__title">Registration</h2>
+        <div class="form__wrapper">
+          <!-----First name-->
+          <label class="form__label">
+            <span class="form__subtitle">Ім'я</span>
+            <input
+              name="firstName"
+              type="text"
+              class="form__input"
+              id="js-registration-form-first-name"
+            />
+          </label>
+          <!-----Last name-->
+          <label class="form__label">
+            <span class="form__subtitle">Прізвище</span>
+            <input
+              id="js-registration-form-last-name"
+              name="lastName"
+              type="text"
+              class="form__input"
+            />
+          </label>
+          <button type="submit" class="form__button">
+            <span>Реєстрація</span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <!---Script-->
+    <script defer type="module" src="./index.js"></script>
+  </body>
+</html>

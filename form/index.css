@@ -27,6 +27,7 @@ body {
   width: 100%;
 }
 
+b
 .form__content {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -40,6 +41,7 @@ body {
   display: flex;
 }
 
+b
 .form__content__title {
   margin-bottom: 5px;
 }
@@ -68,7 +70,7 @@ body {
 }
 
 .form-item__label {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .form-item__input {
@@ -77,6 +79,8 @@ body {
   padding: 5px;
   width: 245px;
   height: 40px;
+  border: 1px solid blue;
+  border-radius: 5px;
 }
 
 .form-item__input__input:last-child {
@@ -84,7 +88,7 @@ body {
 }
 
 .form-item__input:invalid:focus {
-  border-color: red;
+  border-color: #ff0000;
 }
 
 .form-item__input:valid:focus {
@@ -92,7 +96,7 @@ body {
 }
 
 .form-item__input--radio {
-  margin: 20px 20px 20px 5px;
+  margin: 20px 10px 20px 5px;
 }
 
 .form-item__input--radio--radio:last-child {
@@ -104,10 +108,12 @@ body {
   width: 500px;
   padding: 5px;
   height: 40px;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
 }
 
 .form-item__input-mail:invalid:focus {
-  border-color: red;
+  border-color: #ff0000;
 }
 
 .form-item__input-mail:valid:focus {

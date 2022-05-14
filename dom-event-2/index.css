@@ -1,0 +1,102 @@
+/**   variabls  */
+:root {
+  --ff-base: "Roboto", sans-serif;
+  --c-black: #252525;
+  --c-white: #f2f2f2;
+  --c-azul:#284e48;
+  --c-red:#eb3515;
+  --c-grey:#b6a4a1;
+}
+
+/** Global*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--c-white);
+  font-family: var(--ff-base);
+  color: var(--c-black);
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.title {
+  border-bottom: 2px solid var;
+  color: var(--c-white);
+  text-align: center;
+  padding: 20px;
+}
+.subtitle {
+  border-top: 1px solid pink;
+  text-align: center;
+  padding: 20px 0;
+}
+.app {
+  /* width: 400px;
+  height: 400px; */
+  background-color: var(--c-azul);
+  color: var(--c-white);
+  margin: 20px auto;
+  padding: 50px;
+ 
+}
+.title {
+  text-align: center;
+  cursor: default;
+  padding: 20px;
+}
+.form{
+  border: 2px solid var(--c-white);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.form__title {
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1;
+}
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+ 
+}
+.form__input {
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid var(--c-azul);
+ 
+}
+.form__subtitle {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+.form__button {
+  border: none;
+  height: 40px;
+  padding: 0 20px;
+  background-color: var(--c-white);
+  color: var(--c-black);
+  cursor: pointer;
+}
+.form__button:active {
+  background-color: var(--c-grey);
+}
+.error {
+  border-color: var(--c-red);
+}

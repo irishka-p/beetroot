@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom elementary</title>
+    <!-----Fonts----->
+    <link rel="preconnect" href="" />
+    <link rel="preconnect" href="" />
+    <link rel="stylesheet" href="" />
+    <!-----Styls------->
+    <!----Normalize----->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <!----Lokal------>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!---app---->
+    <div id="js-app" class="app">
+      <h1 class="title">Dom elementary</h1>
+      <!---Todo List----->
+      <h2 class="subtitle">TODO</h2>
+
+      <div class="todo__create">
+        <input
+          placeholder="поле не має бути пустим"
+          class="todo__input"
+          type="text"
+          id="js-todo-input"
+        />
+        <button class="todo__button" id="js-todo-button">
+          <span>добавити в список</span>
+        </button>
+      </div>
+      <div class="todo-list_all">
+        <ul class="todo__list" id="js-todo-list">
+          <li class="todo-item">купити морозивко</li>
+          <li class="todo-item">доробити ДЗ!!!</li>
+          <li class="todo-item">йога!!</li>
+        </ul>
+
+        <!--List-->
+        <div class="todo-list-color">
+          <ul class="list">
+            <li class="list__item js-item">1</li>
+            <li class="list__item js-item">2</li>
+            <li class="list__item js-item">3</li>
+            <li class="list__item js-item">4</li>
+            <li class="list__item js-item">5</li>
+            <li class="list__item js-item">6</li>
+            <li class="list__item js-item">7</li>
+            <li class="list__item js-item">8</li>
+            <li class="list__item js-item">9</li>
+            <li class="list__item js-item">10</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!----Script---->
+    <script src="./index.js"></script>
+  </body>
+</html>
