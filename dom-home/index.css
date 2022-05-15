@@ -67,11 +67,11 @@ body {
   border: none;
 }
 .modal {
-  background-color: rgba(0, 0, 0, 0.4);
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(134, 122, 236, 0.4);
   padding-top: 100px;
   position: fixed; /* Stay in place */
   overflow: auto; /* Enable scroll if needed */
+  overflow: auto;
   display: none; /* Hidden by default */
   height: 100%;
   width: 100%;
@@ -79,6 +79,7 @@ body {
   left: 0;
   top: 0;
 }
+
 .modal-content {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
@@ -94,10 +95,11 @@ body {
 }
 .modal__items {
   display: flex;
-  width: 555px;
+  /* width: 555px; */
 }
 
 .modal__item {
+  margin: 0 auto;
   max-width: 100%;
 }
 
