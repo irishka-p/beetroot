@@ -1,0 +1,78 @@
+@use '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+.navigation {
+  background-color: $c-white;
+  @media (max-width: 1024px) {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // background-color: rgba(0, 0, 0, 0.9);
+    // padding: 100px 30px 30px 30px;
+    // transition: all 0.3s ease 0s;
+  }
+}
+
+.list {
+  font-weight: $fw-normal;
+  font-family: $ff-roboto;
+  font-size: $fs-text;
+  color: $c-dark-blue;
+  flex-direction: row;
+  display: flex;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.item {
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 35px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.link {
+  text-decoration: none;
+  &:active {
+    color: $c-olive;
+  }
+}
+
+// .navigation {
+//   // text-align: center;
+//   // display: inline-block;
+//
+//   &__link {
+//     &:active {
+//       color: $c-olive;
+//     }
+//   }
+// }
+// .list {
+//   font-weight: $fw-normal;
+//   font-family: $ff-roboto;
+//   font-size: $fs-text;
+//   color: $c-dark-blue;
+//   flex-direction: row;
+//   display: flex;
+//   gap: 60px;
+// }
+// .item {
+//   cursor: pointer;
+//   padding: 3px;
+// }

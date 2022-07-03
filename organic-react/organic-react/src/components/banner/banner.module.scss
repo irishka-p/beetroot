@@ -1,0 +1,104 @@
+// .banner {
+//   margin-top: 120px;
+// }
+// .wrapper {
+//   position: relative;
+//   overflow: hidden;
+// }
+//
+// .content {
+//   position: absolute;
+//   top: 220px;
+//   left: 0;
+//   right: 0;
+//
+//   @media (max-width: 1024px) {
+//     top: 20px;
+//   }
+//
+//   @media (max-width: 480px) {
+//     padding-bottom: 20px;
+//     padding-top: 20px;
+//   }
+// }
+//
+// .subtitle {
+//   // font-family: $ff-yellowtail;
+//   // font-weight: $fw-normal;
+//   // font-size: $fs-title-1;
+//   margin-bottom: 15px;
+//   // color: $c-olive;
+//
+//   @media (max-width: 768px) {
+//     font-size: $fs-subtitle-2;
+//     margin-bottom: 5px;
+//   }
+//
+//   @media (max-width: 480px) {
+//     font-size: $fs-text;
+//   }
+// }
+//
+// .title {
+//   font-family: $ff-roboto;
+//   font-size: $fs-title-1;
+//   font-weight: $fw-bold;
+//   color: $c-dark-blue;
+//
+//   @media (max-width: 1024px) {
+//     font-size: $fs-subtitle-2;
+//   }
+//
+//   @media (max-width: 768px) {
+//     font-size: $fs-text;
+//     // margin: 5px;
+//   }
+//
+//   @media (max-width: 480px) {
+//     font-size: $fs-text-2;
+//     padding: 5px;
+//     font-weight: $fw-normal;
+//   }
+// }
+// .button {
+//   justify-content: space-around;
+//   background-color: $c-yellow;
+//   font-family: $ff-roboto;
+//   border-radius: 15px;
+//   font-size: $fs-text;
+//   align-items: center;
+//   color: $c-dark-blue;
+//   margin-top: 30px;
+//   cursor: pointer;
+//   width: 220px;
+//   height: 80px;
+//   border: none;
+//   display: flex;
+//
+//   @media (max-width: 768px) {
+//     font-size: $fs-text-1;
+//     width: 180px;
+//     margin-top: 15px;
+//   }
+//
+//   &__icon {
+//     @media (max-width: 480px) {
+//       display: none;
+//     }
+//   }
+// }
+//
+// .text {
+//   font-family: $ff-sans;
+//   font-weight: $fw-bold;
+//   font-size: $fs-text-1;
+// }
+//
+// .arrow {
+//   justify-content: center;
+//   align-content: center;
+//   align-items: center;
+//   fill: transparent;
+//   color: $c-white;
+//   display: flex;
+// }

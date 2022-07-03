@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.header {
+  background-color: $c-white;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: 0;
+  border: 1px solid $c-red;
+}
+.icon {
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+  fill: transparent;
+  font-size: 25px;
+  display: flex;
+  z-index: 100;
+  // width: 56px;
+  // height: 56px;
+  // padding: 15px;
+}
+.wrapper {
+  justify-content: space-between;
+
+  margin-bottom: 40px;
+  align-items: center;
+  padding: 20px 0px;
+  min-height: 70px;
+  display: flex;
+  gap: 20px;
+}
