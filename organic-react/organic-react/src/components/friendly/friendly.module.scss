@@ -1,0 +1,154 @@
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+
+.wrapper {
+  max-width: 1440px;
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container {
+  // // padding-top: 220px;
+  padding-top: 80px;
+  // padding-bottom: 50px; не можна ставити
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1380px; // * мій основний
+  padding-left: 15px;
+  padding-right: 15px;
+  // padding-bottom: 20px;
+  border: 5px solid rgb(178, 178, 255);
+}
+.photo {
+  max-width: 720px;
+  z-index: -1;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
+
+.text {
+  background-color: $c-white;
+  border: 1px solid $c-white;
+  border-radius: 30px;
+  margin-left: -60px;
+  margin-top: 40px;
+  // height: 625px;
+  max-width: 720px;
+
+  @media (max-width: 1400px) {
+    margin-top: 5px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 480px) {
+    margin-left: 0;
+  }
+
+  &Small {
+    font-weight: $fw-normal;
+    font-family: $ff-sans;
+    font-size: $fs-text-1;
+    color: $c-dark-grey;
+    margin-left: 60px;
+    margin-top: 5px;
+
+    @media (max-width: 1400px) {
+      margin-left: 30px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: $fs-text-2;
+      margin-left: 15px;
+    }
+    @media (max-width: 768px) {
+      margin-left: 15px;
+    }
+  }
+}
+
+.subtitle {
+  font-family: $ff-yellowtail;
+  font-weight: $fw-normal;
+  font-size: $fs-subtitle;
+  margin-left: 60px;
+  margin-top: 40px;
+  color: $c-olive;
+
+  @media (max-width: 1400px) {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: $fs-subtitle-1;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: $fs-text-1;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 15px;
+  }
+}
+
+.title {
+  font-family: $ff-roboto;
+  font-weight: $fw-bold;
+  font-size: $fs-title;
+  color: $c-dark-blue;
+  margin-left: 60px;
+
+  @media (max-width: 1400px) {
+    margin-left: 30px;
+    font-size: $fs-subtitle;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: $fs-subtitle-1;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 15px;
+  }
+  @media (max-width: 480px) {
+    font-size: $fs-text-1;
+  }
+
+  &Small {
+    font-size: $fs-subtitle-1;
+    font-family: $ff-roboto;
+    font-weight: $fw-bold;
+    color: $c-dark-blue;
+    margin-left: 60px;
+    margin-top: 30px;
+
+    @media (max-width: 1400px) {
+      margin-left: 30px;
+      margin-top: 10px;
+      font-size: $fs-text-1;
+    }
+
+    @media (max-width: 1024px) {
+      margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+      margin-left: 15px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: $fs-text-2;
+    }
+  }
+}

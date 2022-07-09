@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+.discount {
+  border: 1px solid $c-red;
+  margin-top: 140px;
+  //
+  //   @media (max-width: 1400px) {
+  //     margin-top: 50px;
+  //   }
+}
+.wrapper {
+  justify-content: space-between;
+  // margin: 0 auto 140px;
+  flex-direction: row;
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.container {
+  // // padding-top: 220px;
+  padding-top: 80px;
+  // padding-bottom: 50px; не можна ставити
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1380px; // * мій основний
+  padding-left: 15px;
+  padding-right: 15px;
+  // padding-bottom: 20px;
+  border: 5px solid rgb(178, 178, 255);
+}
+
+.card {
+  max-width: 665px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}

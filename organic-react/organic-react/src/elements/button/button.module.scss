@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.button {
+  background-color: $c-white;
+  border: 1px solid $c-grey;
+  align-items: center;
+  border-radius: 35px;
+  width: fit-content;
+  padding-left: 11px;
+  margin-right: 10px;
+  min-width: 160px;
+  cursor: pointer;
+  display: flex;
+  height: 70px;
+}
+.text {
+  font-family: $ff-roboto;
+  font-weight: $fw-normal;
+  font-size: $fs-text-1;
+  margin-left: 10px;
+}
