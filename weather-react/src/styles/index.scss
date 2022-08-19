@@ -1,0 +1,20 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+  background: var(#{--body-background-default});
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
