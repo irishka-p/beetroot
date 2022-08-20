@@ -1,0 +1,103 @@
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+.wrapper {
+  // padding-left: 10px;
+  // padding-right: 10px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+img {
+  max-width: 1350px;
+  width: 100%;
+  max-height: 320px;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 100px;
+  top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  max-width: 1350px;
+
+  @media (max-width: 1024px) {
+    top: 40px;
+  }
+
+  @media (max-width: 768px) {
+    top: 15px;
+  }
+}
+.title {
+  font-size: $fs-title-big;
+  font-family: $ff-roboto;
+  font-weight: $fw-bold;
+  color: $c-white;
+
+  @media (max-width: 1024px) {
+    font-size: $fs-title-1;
+  }
+
+  @media (max-width: 768px) {
+    font-size: $fs-subtitle-1;
+  }
+}
+.buttons {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: flex;
+    margin-top: auto;
+  }
+}
+.input {
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 5px 30px;
+  cursor: pointer;
+  height: 80px;
+  width: 350px;
+  border: none;
+  @media (max-width: 1024px) {
+    width: 250px;
+    padding: 5px 10px;
+  }
+
+  @media (max-width: 768px) {
+    width: 150px;
+    // padding: 2px 2px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+.button {
+  background-color: $c-dark-blue;
+  border-radius: 15px;
+  cursor: pointer;
+  color: $c-white;
+  width: 195px;
+  height: 80px;
+  border: none;
+
+  @media (max-width: 1024px) {
+    width: 145px;
+    padding: 5px 10px;
+  }
+
+  @media (max-width: 768px) {
+    width: 150px;
+    // padding: 3px 5px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}

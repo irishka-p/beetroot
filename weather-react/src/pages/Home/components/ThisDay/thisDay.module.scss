@@ -1,0 +1,42 @@
+@import '../../../../styles/variables.scss';
+
+.this__day {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  // background: $c-light-background;
+  background: var(#{--components-background-default});
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  height: 300px;
+}
+.top__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+
+  svg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .this__temp {
+    font-size: 95px;
+    font-weight: 500;
+    color: $c-primary;
+  }
+  .this__day_name {
+    font-style: 40px;
+    color: var(#{--text-color-default});
+  }
+}
+
+.bottom__block {
+  .this__time,
+  .this__city {
+    color: $c-base;
+    font-size: 25px;
+  }
+}
